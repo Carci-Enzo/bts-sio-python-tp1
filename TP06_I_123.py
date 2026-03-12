@@ -20,3 +20,15 @@ def type_de_nombres() :
 type_de_nombres() 
 """
 #exercice 3 
+def verification_de_mot_de_passe(): 
+    mot_de_passe = "pYth0n123*%?"
+    tentative = str(input( "Veuillez-saisir votre mot de passe : ")) # pyright: ignore[reportInvalidTypeForm]
+    validation = tentative == mot_de_passe
+    if validation :
+        print("Accès autorisée ! ")
+    else :
+        print("Mot de passe incorecte veuillez réessayer ") 
+verification_de_mot_de_passe()
+
+    
+
