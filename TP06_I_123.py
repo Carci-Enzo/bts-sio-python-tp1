@@ -29,6 +29,3 @@ def verification_de_mot_de_passe():
     else :
         print("Mot de passe incorecte veuillez réessayer ") 
 verification_de_mot_de_passe()
-
-    
-
