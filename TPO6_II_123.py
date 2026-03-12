@@ -19,4 +19,11 @@ def calcul_de_moyenne():
         print("Très biens ! ")
 calcul_de_moyenne()
 """
-#exercice
+#exercice 2
+def pair_ou_impair():
+    nombre = int(input("Ecris ton nombre : "))
+    if nombre %2 == 0 :
+        print("Ton nombre est pair ! ")
+    else:
+        print("Ton nombre est impair ")
+pair_ou_impair()
