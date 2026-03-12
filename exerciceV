@@ -5,6 +5,7 @@ def stocker():
     d = int(input("Ecris un quatrième chiffre :"))
     e = int(input("Ecris un cinquième chiffre :"))
     liste = [a, b, c, d, e]
-    liste.sort()
     print("Voici ta liste de chiffres : ", liste)
+    liste.sort()
+    print("Voici ta liste de chiffres triée : ", liste)
 stocker()
